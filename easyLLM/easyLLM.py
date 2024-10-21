@@ -18,7 +18,7 @@ import random
 # Suppress unnecessary warnings
 hf_logging.set_verbosity_error()
 
-UNSLOTH_MODELS = ["cognitivecomputations/dolphin-2.9-llama3-8b"]
+UNSLOTH_MODELS = ["akjindal53244/Llama-3.1-Storm-8B"]
 
 class EasyLLM:
     """
