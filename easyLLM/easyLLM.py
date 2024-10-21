@@ -18,9 +18,7 @@ import random
 # Suppress unnecessary warnings
 hf_logging.set_verbosity_error()
 
-UNSLOTH_MODELS = ["unsloth/Llama-3.1-Storm-8B-bnb-4bit",
-                  "unsloth/mistral-7b-instruct-v0.3",
-                  "unsloth/gemma-2-9b-it-bnb-4bit"]
+UNSLOTH_MODELS = ["unsloth/Llama-3.1-Storm-8B-bnb-4bit"]
 
 class EasyLLM:
     """
