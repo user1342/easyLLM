@@ -6,7 +6,7 @@ with open('requirements.txt', 'r') as f:
 
 setup(
     name="easyLLM",  # Name of the tool/package
-    version="0.0.9",  # Current version
+    version="0.0.10",  # Current version
     url="https://github.com/user1342/easyLLM",
     packages=find_packages(),  # Automatically find package directories
     classifiers=[
