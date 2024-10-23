@@ -77,7 +77,7 @@ class EasyLLM:
                     )
 
                 max_memory = {
-                    0: "5GiB",  # Adjust this value based on your GPU's available memory
+                    0: "4GiB",  # Adjust this value based on your GPU's available memory
                     "cpu": "20GiB"  # Adjust based on your system's RAM
                 }
 
