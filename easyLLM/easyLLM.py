@@ -77,8 +77,8 @@ class EasyLLM:
                     )
 
                 max_memory = {
-                    0: "13GiB",  # Adjust this value based on your GPU's available memory
-                    "cpu": "30GiB"  # Adjust based on your system's RAM
+                    0: "10GiB",  # Adjust this value based on your GPU's available memory
+                    "cpu": "20GiB"  # Adjust based on your system's RAM
                 }
 
                 # Use device_map with max_memory to control layer placement
